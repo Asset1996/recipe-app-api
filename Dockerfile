@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 # We are going to inherit from python 3.7 alpine
-MAINTAINER Asset Khamid
+LABEL Asset Khamid
 
 ENV PYTHONUNBUFFERED 1
 
